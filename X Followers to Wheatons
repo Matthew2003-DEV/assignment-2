@@ -1,0 +1,16 @@
+# Convert X followers to Wheatons
+
+# 1 Wheaton = 500,000 followers
+
+followers_per_wheaton = 500000
+
+followers = int(input("Enter number of X followers: "))
+
+wheatons = followers / followers_per_wheaton
+
+print(
+    followers,
+    "followers is equal to",
+    wheatons,
+    "Wheatons"
+)
