@@ -1,0 +1,16 @@
+# Convert Fahrenheit to Kelvin
+
+fahrenheit = float(input("Enter temperature in Fahrenheit: "))
+
+# Convert Fahrenheit to Celsius first
+celsius = (fahrenheit - 32) * 5 / 9
+
+# Convert Celsius to Kelvin
+kelvin = celsius + 273.15
+
+print(
+    fahrenheit,
+    "degrees Fahrenheit is equal to",
+    kelvin,
+    "Kelvin"
+)
