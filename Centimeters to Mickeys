@@ -1,0 +1,20 @@
+# Convert centimeters to mickeys
+
+# Mouse resolution:
+# 16 mickeys per mm
+# 1 cm = 10 mm
+
+mickeys_per_mm = 16
+
+centimeters = float(input("Enter distance in centimeters: "))
+
+millimeters = centimeters * 10
+
+mickeys = millimeters * mickeys_per_mm
+
+print(
+    centimeters,
+    "centimeters is equal to",
+    mickeys,
+    "mickeys"
+)
