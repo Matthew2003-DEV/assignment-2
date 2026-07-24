@@ -1,0 +1,14 @@
+# Convert kilometers to Smoots
+
+# One Smoot = 170 cm = 1.7 meters
+# 1 kilometer = 1000 meters
+
+smoot_length = 1.7
+
+kilometers = float(input("Enter distance in kilometers: "))
+
+meters = kilometers * 1000
+
+smoots = meters / smoot_length
+
+print(kilometers, "kilometers is equal to", smoots, "Smoots")
